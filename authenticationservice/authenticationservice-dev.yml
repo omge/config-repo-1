@@ -3,7 +3,7 @@ spring.jpa.show-sql: "true"
 spring.database.driverClassName: "com.mysql.jdbc.Driver"
 spring.datasource.url: jdbc:mysql://localhost:3306/chapter7?useUnicode=true&characterEncoding=UTF-8&useSSL=false
 spring.datasource.username: "root"
-spring.datasource.password: "root"
+spring.datasource.password: "{cipher}18134803988d9ff91714ee5a7486fe4bb63c07cd4fd71741c9d61956f7b46345"
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 #spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
